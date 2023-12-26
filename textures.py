@@ -9,6 +9,7 @@ class Textures:
 
         # load texture
         self.texture_0 = self.load('frame.png')
+        # self.texture_0 = self.load('test.png')
 
         # assign texture unit
         self.texture_0.use(location=0)
@@ -26,52 +27,3 @@ class Textures:
         texture.build_mipmaps()
         texture.filter = (mgl.NEAREST, mgl.NEAREST)
         return texture
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
