@@ -148,6 +148,3 @@ class VoxelHandler:
 
             return voxel_id, voxel_index, voxel_local_pos, chunk
         return 0, 0, 0, 0
-
-
-

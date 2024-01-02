@@ -40,7 +40,7 @@ class CubeMesh(BaseMesh):
             (0, 1, 2), (2, 3, 0),
             (2, 3, 0), (2, 0, 1),
             (0, 2, 3), (0, 1, 2),
-            (3, 1, 2), (3, 0, 1)
+            (3, 1, 2), (3, 0, 1),
         ]
         tex_coord_data = self.get_data(tex_coord_vertices, tex_coord_indices)
         vertex_data = np.hstack([tex_coord_data, vertex_data])
